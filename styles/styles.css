@@ -1,10 +1,42 @@
-* {
+* 
+{
     padding: 0;
     margin: 0;
     box-sizing:border-box;
+    border:1px solid black;
+    font-family: 'Merienda', cursive;
 }
 
-h1 {
-    font-size:x-large;
-    font-weight: 100;
+h1 
+{
+    font-size:80px;
+    text-align: center;
+}
+nav{
+
+    margin-left: 70%;
+}
+nav a:first-child
+{
+    background-color: rgb(38, 145, 65);
+}
+
+nav a 
+{
+    background-color: rgb(49, 106, 190);
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#logo {
+    position: absolute;
+    top:50%;
+    width: 150px;
+}
+
+section img {
+    width: 80%;
+    height: 20em;
+    margin-left: 10%;
 }
