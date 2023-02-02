@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing:border-box;
-
     font-family: "Comic Sans", cursive;
 }
 header {
@@ -16,15 +15,15 @@ h1
     position: relative;
     font-size:50px;
     font-weight: 100;
-    top:25px;
+    top:20px;
 
 }
 nav{
     display: inline;
     width: 29%;
     position: relative;
-    left: 75%;
-    top:10px;
+    left: 50%;
+    top:25px;
 
     z-index: 50;
 }
@@ -85,3 +84,83 @@ article {
 }
 
 
+.section2 {  
+    height: 100vh;
+}
+.h2-section2 {
+    text-align: end;
+    width: 80%;
+    border: none;
+}
+
+table {
+    margin:auto; 
+    width: 60%;
+
+}
+caption {
+    font-size: 23px;
+    font-weight: 20;
+    text-align: justify;
+    padding: 1%;
+}
+caption span {
+    text-decoration: underline;
+    font-size: 18px;
+}
+th {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.date {
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+    padding: 1%;
+}
+.last-table {
+    margin:auto; 
+    width: 60%;
+  
+}
+.last-table td {
+    padding: 0;
+}
+.last-line {
+    text-align:end;
+
+}
+
+
+.article-post-tabla {
+    margin:5% 20% 5%;
+    font-size: 18px;
+ 
+}
+
+.article-post-tabla 
+{
+    margin-bottom: 0;
+}
+.header2-rules {
+    text-align: center;
+    margin-bottom:10vh;
+}
+
+.section3 h4 {
+    display:block;
+}
+.h4-margin {
+    margin-bottom: 2%;
+
+}
+.rules-article {
+    margin-bottom: 5vh;
+}
+
+ol {
+    margin-bottom:3%;
+}
