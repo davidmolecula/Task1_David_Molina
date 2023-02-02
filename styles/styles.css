@@ -155,7 +155,6 @@ td {
 }
 .h4-margin {
     margin-bottom: 2%;
-
 }
 .rules-article {
     margin-bottom: 5vh;
@@ -163,4 +162,19 @@ td {
 
 ol {
     margin-bottom:3%;
+}
+
+ol li{
+    margin-bottom: 3%;
+}
+
+ol li ol li {
+    margin-bottom: 0;
+}
+.enlinea {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    width: fit-content;
 }
