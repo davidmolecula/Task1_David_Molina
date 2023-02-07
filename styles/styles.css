@@ -181,10 +181,8 @@ ol li ol li {
 
 
 form {
-    display: flex;
     max-width: 80%;
     margin:auto;
-    flex-direction: column;
     border:none;
 }
 
@@ -194,12 +192,14 @@ fieldset {
 }
 
 input {
-    border:none;
+    border:0;
     border-bottom: 1px solid black;
+}
+.input-adress {
+width:59%;
 }
 .columns {
     display: flex;
-    
 }
 
 .columns>fieldset {

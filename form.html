@@ -32,20 +32,17 @@
             <form action="./showdata.html" method="GET">
 
                 <Fieldset>
-
                     <label>
                         Player's first name: <input type="text" name="name" placeholder="John">
                     </label>
                     <label>
                         Last name: <input type="text" name="last name" placeholder="Constantine">
                     </label>
-
-
                 </Fieldset>
 
                 <fieldset>
                     <label>
-                        Street address: <input type="text" name="address">
+                        Street address: <input class="input-adress" type="text" name="address">
                     </label>
 
                 </fieldset>
@@ -63,63 +60,64 @@
                         Birth date(mm/dd/yyyy): <input type="text" name="date" placeholder="12/34/2010">
                     </label>
                     <label>
-                        Gender: male<input type="checkbox" name="gender" value="male">
-                        female<input type="checkbox" name="gender" value="female">
+                        Gender: Male<input type="radio" name="gender" value="Male">
                     </label>
+                    <label>Female<input type="radio" name="gender" value="Female"></label>
                 </fieldset>
                 <fieldset>
                     <label>
                         Grade:
-                        <input type="checkbox" name="grade" value="Pre-School">Pre-School
+                        <input type="radio" name="grade" value="Pre-School">Pre-School
                     </label>
                     <label>
-                        <input type="checkbox" name="grade" value="1st">1st
+                        <input type="radio" name="grade" value="1st">1st
                     </label>
                     <label>
-                        <input type="checkbox" name="grade" value="2nd">2nd
+                        <input type="radio" name="grade" value="2nd">2nd
                     </label>
                     <label>
-                        <input type="checkbox" name="grade" value="3rd">3rd
+                        <input type="radio" name="grade" value="3rd">3rd
                     </label>
                     <label>
-                        <input type="checkbox" name="grade" value="4th">4th
+                        <input type="radio" name="grade" value="4th">4th
                     </label>
                     <label>
-                        <input type="checkbox" name="grade" value="5th">5th
+                        <input type="radio" name="grade" value="5th">5th
                     </label>
                 </fieldset>
 
                 <fieldset>
                     <h3>Wich elementary school do you live near?</h3>
-                    <h5>Closest school:</h5>
+                    <h3>Closest school:</h3>
                     <fieldset class="columns">
                         <fieldset>
                             <label>
-                                AJ Katzenmaier<input type="checkbox" name="school" value="AJ Katzenmaier ">
+                                AJ Katzenmaier<input type="radio" name="school" value="AJ Katzenmaier ">
                             </label>
                             <label>
-                                Greenbay<input type="checkbox" name="" value="Greenbay">
+                                Greenbay<input type="radio" name="school" value="Greenbay">
                             </label>
                             <label>
-                                Howard A Yeager <input type="checkbox" name="School" value="Howard A Yeager ">
+                                Howard A Yeager <input type="radio" name="school" value="Howard A Yeager ">
                             </label>
                         </fieldset>
                         <fieldset>
                             <label>
-                                Marjorie P Hart <input type="checkbox" name="school" value="Marjorie P Hart ">
+                                Marjorie P Hart <input type="radio" name="school" value="Marjorie P Hart ">
                             </label>
                             <label>
-                                North Elementary <input type="checkbox" name="school" value="North Elementary ">
+                                North Elementary <input type="radio" name="school" value="North Elementary ">
                             </label>
                             <label>
-                                South Elementary <input type="checkbox" name="school" value="South Elementary ">
+                                South Elementary <input type="radio" name="school" value="South Elementary ">
                             </label>
                         </fieldset>
                     </fieldset>
 
                 </fieldset>
+                <h3>What position(s) do you normally play? (check all that apply)</h3>
                 <fieldset class="columns">
-                    <legend>What position(s) do you normally play? (check all that apply) </legend>
+
                     <fieldset>
                         <label>
                             <input type="checkbox" name="position" value="Forward">Forward
@@ -153,8 +151,9 @@
                         </label>
                         <label>
                             <input type="checkbox" name="size" value="Small">Small
+
+                        </label>
                     </fieldset>
-                    </label>
                     <fieldset>
                         <label>
                             <input type="checkbox" name="size" value="Medium">Medium
